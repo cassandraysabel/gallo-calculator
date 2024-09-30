@@ -26,7 +26,7 @@ function calculate() {
 }
 
 function sayHello() {
-  const languages = ['Hello', 'Hola', 'Kamusta', 'Bonjour', 'Hallo', 'Ciao'];
+  const languages = ['Hello', 'Hola', 'Kumusta', 'Bonjour', 'Hallo', 'Ciao', 'こんにちは', '안녕', '你好', 'สวัสดี' ];
   const randomIndex = Math.floor(Math.random() * languages.length);
   display.value = languages[randomIndex];
   setTimeout(() => {
